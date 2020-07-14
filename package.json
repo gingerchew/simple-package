@@ -2,9 +2,13 @@
 	"name": "simple-package",
 	"version": "1.0.0",
 	"description": "Template repo for building simple packages",
-	"main": "index.js",
+	"main": "dist/simple.js",
+	"module": "dist/simple.modern.js",
+	"source": "src/simple.ts",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "microbundle -f modern,umd",
+		"start": "microbundle watch --compress false -f modern,umd"
 	},
 	"keywords": [
 		"template",
@@ -12,7 +16,7 @@
 		"typescript"
 	],
 	"author": {
-		"name": "Frankie",
+		"name": "frankie",
 		"url": "https://github.com/frankie-tech"
 	},
 	"license": "MIT",
