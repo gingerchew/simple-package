@@ -34,5 +34,8 @@
 		"hooks": {
 			"pre-commit": "pretty-quick --staged"
 		}
+	},
+	"mangle": {
+		"regex": "^_"
 	}
 }
