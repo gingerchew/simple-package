@@ -7,7 +7,6 @@ A simple package template to build small JavaScript packages with TypeScript. Id
 Uses:
 
 -   Microbundle (pre-configured bundler)
--   Husky (formatting on commit)
 -   Prettier (formatting)
 
 ## Documentation
