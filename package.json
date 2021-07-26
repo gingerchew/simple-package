@@ -7,6 +7,7 @@
 	"source": "src/index.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
+		"serve": "npx serve",
 		"build": "microbundle -f modern,umd",
 		"dev": "microbundle watch --compress=false -f modern,umd --raw=true --no-sourcemap",
 		"clean": "rm -rf dist",
